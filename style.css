@@ -54,3 +54,31 @@ body{
     outline: none;
     cursor: pointer;
 }
+
+#tasks{
+    width: 100%;
+    position: relative;
+    margin-top: 40px;
+    background: #fff;
+    padding: 30px 20px;
+    border-radius: 5px;
+}
+
+.task{
+    background: #fff;
+    height: 50px;
+    padding: 5px 10px;
+    border-radius: 0px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    border-bottom: 2px solid #d1d3d4;
+}
+
+.task span{
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+}
