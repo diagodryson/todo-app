@@ -5,8 +5,9 @@
 }
 
 body{
+    background-color: #2C3639;
     height: 35%;
-    min-width: 340px;
+    width: 520px;
     position: absolute;
     margin: auto;
     top: 50px;
@@ -38,7 +39,7 @@ body{
 
 #newtask input:focus{
     outline: none;
-    border-color: #19a68c;
+    border-color: #40DFEF;
 }
 
 #newtask button{
@@ -49,7 +50,7 @@ body{
     border-radius: 3px;
     font-weight: 500;
     font-size: 16px;
-    background: #19A68C;
+    background: #40DFEF;
     color: #fff;
     border: none;
     outline: none;
