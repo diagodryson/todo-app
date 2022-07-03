@@ -43,7 +43,7 @@ body{
 #newtask button{
     position: relative;
     float: right;
-    width: 23px;
+    width: 60px;
     height: 45px;
     border-radius: 3px;
     font-weight: 500;
