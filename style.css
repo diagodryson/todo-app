@@ -34,3 +34,23 @@ body{
     font-weight: 500;
     position: relative;
 }
+
+#newtask input:focus{
+    outline: none;
+    border-color: #19a68c;
+}
+
+#newtask button{
+    position: relative;
+    float: right;
+    width: 23px;
+    height: 45px;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 16px;
+    background: #19A68C;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
