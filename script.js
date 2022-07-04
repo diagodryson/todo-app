@@ -4,6 +4,16 @@ document.querySelector('#push').onclick = function() {
         alert("Please Enter a Task");
     } 
     else{
-         document.querySelector('#tasks').innerHTML += '<div class="task"><span id "taskname">${document.querySelector("#newtask input").value}</span><button class="delete">X<button>';
+        document.querySelector('#tasks').innerHTML 
+        += `<div class="task"><span id "taskname">
+        ${document.querySelector("#newtask input").
+        value}
+        </span>
+        <button class="delete">X<button>
+        </div>
+        `;
+
+        var current_tasks = document.
+        querySelectorAll('.delete')
     }
 }
