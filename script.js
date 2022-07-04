@@ -16,9 +16,20 @@ document.querySelector('#push').onclick = function() {
         var current_tasks = document.
         querySelectorAll('.delete');
 
-        for (let index = 0; index < Array.length;
-        index++) {
-            const element = array[index];
+        for (var i = 0; i < current_tasks.length; i++) {
+            current_tasks[i].onclick = function name (){
+                this.parentNode.remove();
+            }
         }
+
+        var tasks = document.
+        querySelectorAll('#taskname');
+
+        for (var i = 0; i < tasks.length; i++) {
+            current_tasks[i].onclick = function name (){
+                this.classList.toggle('completed');
+            }
+        }
+
     }
 }
