@@ -1,12 +1,12 @@
-document.querySelector('#push').onclick = fuction(){
+document.querySelector('#push').onclick = function() {
 
     if(document.querySelector('#newtask input').value.length == 0){
         alert("Please Enter a Task");
     } 
-    else{
-        document.querySelector('#tasks').innerHTML += '
+    // else{
+    //     document.querySelector('#tasks').innerHTML += '
         
         
-        ';
-    }
+    //     ';
+    // }
 }
