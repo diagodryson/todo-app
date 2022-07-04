@@ -14,6 +14,11 @@ document.querySelector('#push').onclick = function() {
         `;
 
         var current_tasks = document.
-        querySelectorAll('.delete')
+        querySelectorAll('.delete');
+
+        for (let index = 0; index < Array.length;
+        index++) {
+            const element = array[index];
+        }
     }
 }
