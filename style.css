@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #2C3639;
+    background-color: #E8F9FD;
     height: 35%;
     width: 520px;
     position: absolute;
@@ -87,7 +87,7 @@ body{
 
 .task button{
     border: none;
-    background: #19a68c;
+    background: #40DFEF;
     height: 100%;
     width: 50px;
     color: #fff;
