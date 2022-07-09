@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #2C3639;
+    background-color: #DFF6FF;
     height: 35%;
     width: 520px;
     position: absolute;
@@ -45,7 +45,7 @@ body{
 #newtask button{
     position: relative;
     float: right;
-    width: 60px;
+    width: 70px;
     height: 45px;
     border-radius: 3px;
     font-weight: 500;
@@ -80,14 +80,14 @@ body{
 }
 
 .task span{
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 400;
     cursor: pointer;
 }
 
 .task button{
     border: none;
-    background: #19a68c;
+    background: #40DFEF;
     height: 100%;
     width: 50px;
     color: #fff;
